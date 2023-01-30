@@ -1,0 +1,26 @@
+.cardTotal{
+    width: 363px;
+    height: 96px;
+    margin-top: -50px;
+    margin-left: 160px;
+    z-index: 1000;
+}
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.descricaoCard{
+    margin-top: -25px;
+    font-size: 15px;
+    
+}
+.btnMostraTotal{
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    background-color: #FD377E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

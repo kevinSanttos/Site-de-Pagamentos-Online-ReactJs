@@ -1,0 +1,76 @@
+
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.secaoInicial{
+  width: 300px;
+  margin-left: -450px;
+  margin-top: -100px;
+}
+.secaoInicial p {
+  font-size: 14px;
+}
+
+.secaoInicial button{
+  background-color: #FD377E;
+  width: 241px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  color: white;
+}
+.secaoInicial > h3 > span{
+  color: #FD377E;
+}
+ .body{
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+.body header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 10px 200px;
+  box-shadow: 1px 1px 8px 1px gray;
+  margin-bottom: 50px;
+}
+.body header > button{
+  height: 40px;
+  width: 80px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.body header > h3{
+  margin-top: 0px;
+}
+.body header > h3 > span{
+  color: #FD377E;
+}
+.secaoMaior{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -100px;
+  
+}
+.secaoMaior section{
+  margin-top: -50px;
+ padding: 10px 40px;
+  height: 500px;
+  overflow: auto;
+  width: 600px;
+}
