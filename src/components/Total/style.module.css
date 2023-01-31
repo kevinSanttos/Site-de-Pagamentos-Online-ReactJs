@@ -4,6 +4,7 @@
     margin-top: -50px;
     margin-left: 160px;
     z-index: 1000;
+    color:black;
 }
 .cardHeader{
     display: flex;
@@ -23,4 +24,10 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+@media(max-width: 850px){
+    .cardTotal{
+        margin-top: -400px;
+        margin-bottom: 400px;
+    }
 }

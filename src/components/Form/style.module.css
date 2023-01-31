@@ -41,4 +41,12 @@
     margin: auto;
     margin-top: 10px;
 }
-
+.main label{
+    color: black;
+}
+@media(max-width: 850px){
+    .form{
+        margin-left: 50%;
+        margin-bottom: 100px;
+    }
+}

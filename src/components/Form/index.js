@@ -2,10 +2,13 @@ import { useState } from "react"
 import {v4 as uuid} from 'uuid'
 import styles from './style.module.css'
 
+
 export function Form({setCard, setPage}){
+    
     const [descricao, setDescricao] = useState('')
     const [valor, setValor] = useState('')
     const [tipo, setTipo] = useState('')
+
     function handleValor(event){
         event.preventDefault()
         const newCard = {id: uuid(), descricao, valor, tipo}
@@ -13,8 +16,8 @@ export function Form({setCard, setPage}){
         
     }
     return (
-        <body className={styles.body}>
-           
+        <main className={styles.main}>
+                     
             <form onSubmit={handleValor} className={styles.form}>
                 <label htmlFor="descricao">Descrição</label>
                 <input placeholder="Digite uma descrição..." type="text" id="descricao" onChange={(event) => setDescricao(event.target.value)}/>
@@ -30,7 +33,7 @@ export function Form({setCard, setPage}){
                 <button type="submit">Inserir Valor</button>
             </form>
             
-        </body>
+        </main>
     
     )
     

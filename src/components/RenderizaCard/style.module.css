@@ -1,11 +1,12 @@
 .card{
-    width: 560px;
+    width: 570px;
     height: 87px;
     box-shadow: 1px 1px 8px 1px gray;
     border: none;
     border-radius: 8px;
     padding: 5px;
     margin-bottom: 30px;
+    color: black;
 }
 .conteudoCard{
     display: flex;
@@ -16,11 +17,51 @@
     height: 22px;
     margin-top: 5px;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
+.card button img{
+        height: 15px;
+        width: 15px;
+    }
+
 .card h3{
     margin-top: 0px;
 }
 .card > p{
     margin-top: -20px;
     margin-left: 24px;
+}
+.cardEntrada{
+    width: 560px;
+    height: 87px;
+    box-shadow: 1px 1px 8px 1px gray;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 30px;
+    color: black;
+    border-left: 10px solid green;
+}
+.cardEntrada button{
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.cardEntrada button img{
+    height: 15px;
+    width: 15px;
+}
+.cardEntrada h3{
+    margin-top: 0px;
+}
+.cardEntrada > p{
+    margin-top: -20px;
+    margin-left: 24px;
+}
+@media(max-width: 850px){
+    
 }
